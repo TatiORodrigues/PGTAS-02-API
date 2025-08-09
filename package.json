@@ -1,0 +1,16 @@
+{
+  "name": "banco-api",
+  "version": "1.0.0",
+  "description": "Projeto JavaScript com Mocha para testes automatizados.",
+  "main": "src/sum.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
