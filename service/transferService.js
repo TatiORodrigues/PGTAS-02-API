@@ -19,7 +19,12 @@ function getAllTransfers() {
   return transfers;
 }
 
+function transfer(params) {
+  return createTransfer(params);
+}
+
 module.exports = {
   createTransfer,
-  getAllTransfers
+  getAllTransfers,
+  transfer
 };
